@@ -11,7 +11,7 @@ gcc -nostdlib -no-pie print_hello.s -o hello
 ## Task 1 – task1.s
 
 ### Compile
-gcc -nostdlib -no-pie task1.s -o task1
+gcc -no-pie task1.s print_ram.c -o task1
 
 ### Run
 ./task1
@@ -29,7 +29,7 @@ gcc -nostdlib -no-pie Task_2.s -o task2
 ## Task 3 – Task_3.s
 
 ### Compile
-gcc -nostdlib -no-pie Task_3.s -o task3
+gcc -no-pie Task_3.s print_ram.c -o task3
 
 ### Run
 ./task3
@@ -38,7 +38,7 @@ gcc -nostdlib -no-pie Task_3.s -o task3
 ## Task 4 – Task_4.s
 
 ### Compile
-gcc -nostdlib -no-pie Task_4.s -o task4
+gcc -no-pie Task_4.s print_ram.c -o task4
 
 ### Run
 ./task4

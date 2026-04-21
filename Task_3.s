@@ -18,3 +18,4 @@ fill_ram:
     
     ret
     .section .note.GNU-stack,"",@progbits
+    
