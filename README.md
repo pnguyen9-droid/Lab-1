@@ -20,7 +20,7 @@ gcc -no-pie task1.s print_ram.c -o task1
 ## Task 2 – Task_2.s
 
 ### Compile
-gcc -nostdlib -no-pie Task_2.s -o task2
+gcc -no-pie Task_2.s print_ram.c -o task2
 
 ### Run
 ./task2
